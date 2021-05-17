@@ -4,7 +4,7 @@ import pywhatkit
 def HANDWRITE(TEXT,DIRECTORY):
     print('[HANDWRITE] gettng image...')
     pywhatkit.text_to_handwriting(TEXT,save_to=DIRECTORY)
-    print("[HANDWRITE] Done1")
+    print("[HANDWRITE] Done!")
 
 
 
